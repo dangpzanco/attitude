@@ -9,6 +9,7 @@ function B = BinvEuler212(q)
 %		w = [B(Q)]^(-1) dQ/dt
 %	
 
+B = zeros(3);
 
 s2 = sin(q(2));
 c2 = cos(q(2));
