@@ -6,7 +6,7 @@ function	q = EP2PRV(q1)
 %	into the principal rotation vector Q.
 %
 
-p = 2*acos(q1(1))
+p = 2*acos(q1(1));
 sp = sin(p/2);
 q(1) = q1(2)/sp*p;
 q(2) = q1(3)/sp*p;
