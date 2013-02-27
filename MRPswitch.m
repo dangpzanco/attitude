@@ -6,7 +6,7 @@ function s = MRPswitch(q,s2)
 %	If yes, then the MRP vector Q is mapped to its shadow set.
 %
 
-q2 = q'*q;
+q2 = dot(q,q);
 if (q2>s2*s2)
 	s = -q/q2;
 else
