@@ -7,9 +7,9 @@ function q = qmethod(Vb, Vi, w)
 % frame, using least squares. This solves Wahba's problem using Davenport's
 % q-method.
 %
-% Inputs:  Vb = body vectors in form [vb1; vb2; vb3; etc..], where vbi is a
+% Inputs:  Vb = body vectors in form [vb1, vb2, vb3, etc..], where vbi is a
 %               column vector
-%          Vi = inertial vectors in form [vi1; vi2; vi3; etc..], where vii 
+%          Vi = inertial vectors in form [vi1, vi2, vi3, etc..], where vii 
 %               is a column vector (corresponding to vbi)
 %           w = a column vector of weight corresponding to each body vector
 %
